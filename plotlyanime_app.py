@@ -6,7 +6,7 @@ from raceplotly.plots import barplot
 import pandas as pd
 
 
-dataset = pd.read_csv('plotlyanime-app/data.csv',index_col=0)
+dataset = pd.read_csv('data.csv',index_col=0)
 
 years = ["1952", "1962", "1967", "1972", "1977", "1982", "1987", "1992", "1997", "2002",
          "2007"]
